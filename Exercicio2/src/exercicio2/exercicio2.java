@@ -54,6 +54,7 @@ public class exercicio2 {
 		sobrenomeAnterior = sobrenome;
 		tam++;
 		}
+		
 		for(int i = 0; i < tam; i++) {
 		pessoas[i].InformaDados(i);
 		}

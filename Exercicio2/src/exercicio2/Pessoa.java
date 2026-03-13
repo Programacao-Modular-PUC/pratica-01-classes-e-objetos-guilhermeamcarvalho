@@ -75,7 +75,7 @@ public class Pessoa {
 	}
 	
 	public void InformaDados(int i) {
-		System.out.println("Cadastro " + i + ":");
+		System.out.println("\nCadastro " + (i+1) + ":");
 		System.out.println("---------------");
 		System.out.println("Nome completo: " + nome + " " + sobrenome);
 		String nomeMaiusculo = nome.toUpperCase();
